@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>To-do List App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="list">
+        <h1>To Do List <i class="fa-solid fa-list-check"></i></h1>
+        <div class="row">
+          <input
+            type="text"
+            id="input-box"
+            placeholder="Enter Your Task Here"
+          />
+          <button onclick="addTask()">
+            Add <i class="fa-regular fa-square-plus"></i>
+          </button>
+        </div>
+        <ul id="list-item">
+          <!-- <li></li> -->
+        </ul>
+        <!-- alerts -->
+        <div id="alert-container"></div>
+      </div>
+      <!-- mark -->
+      <div class="love">
+        Made with<span class="art"> &#10084; </span> by Kuldeep Sharma
+      </div>
+    </div>
+    <!-- icon kit -->
+    <script
+      src="https://kit.fontawesome.com/d8f48d71cd.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
